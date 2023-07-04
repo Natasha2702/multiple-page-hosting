@@ -1,0 +1,48 @@
+:root {
+  --shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+body {
+  display: block;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+
+.container {
+  margin-top: 15px;
+  max-width: 800px;
+  padding: 10px 10px 10px 10px auto;
+}
+
+h1 {
+  font-family: "Caprasimo", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-size: medium;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+a {
+  color: purple !important;
+}
+.nav {
+  justify-content: center;
+  text-align: center;
+}
+
+.email {
+  color: blue !important;
+}
